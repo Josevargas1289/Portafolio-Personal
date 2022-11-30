@@ -39,7 +39,8 @@ body{
 
 /* inicia la barra de navegacion */
 .navBar{
- 
+
+    padding-right: 1rem;
     display: flex;
     justify-content: flex-end;
     align-self:center ;  
@@ -491,6 +492,7 @@ body{
         flex-direction: row;
         align-content: space-between;
         align-items: center;
+        
        
     }
     .image-principal{
