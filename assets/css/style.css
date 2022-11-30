@@ -533,26 +533,32 @@ body{
 
 
 @media screen and (min-width: 678px){
+
     .container-tarjet{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center;
     gap: 3rem;
     
-    
-
     }
+
+    .habilidades{
+        overflow-x: hidden;
+    }
+    
     .habilidades >h4{
         margin-bottom: 5rem;
         text-align: center;
         font-size: 30px;
-        overflow: hidden;
+       
     
     }
     .habiliti-p{
         font-size: 14px;
+       
     }
 
 }
@@ -574,6 +580,9 @@ body{
     .container-progrese-hability{
         justify-content: center;
 
+    }
+    .container-progrese-hability{
+        overflow-x: hidden;
     }
 }
 
