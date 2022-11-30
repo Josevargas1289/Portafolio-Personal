@@ -51,18 +51,14 @@ body{
     z-index: 1;
     background-color: var(--morado);
     
-    
-   
 }
 
 #btn-menu{
     display: none;
-    
-
  }
 
  .nav-menu{
-    background-color: var(--morado);
+    background-color: #9584e9;
     position: absolute;
     width: 60%;
     top: 48px;
@@ -76,28 +72,27 @@ body{
     z-index: 1;
     border-radius: 0 0 1rem;
     
-   
-    
-   
  }
 
  .nav-iten{
     list-style: none;
     font-size: 1.25rem;
-    color: var(--white);
+    color: #c9c2eb;
     font-weight: bold;
-   
+ 
+
  }
  
  .nav-iten:hover{
-    color: var(--azul);
+    color: white;
     transition: all 300ms;
    
    
  }
  .nav-menu >a{
     text-decoration: none;
- }
+
+ } 
 
  
 
@@ -469,7 +464,7 @@ body{
 
     }
     .nav-iten{
-       color: var(--dark-grey);
+       color: #c9c2eb;
        padding: 1rem;
       
        
@@ -479,8 +474,7 @@ body{
         transition: all .5s;
         
       }
-   
-    
+  
 }
 /* media query para el responsive de la primera secsion  */
 
