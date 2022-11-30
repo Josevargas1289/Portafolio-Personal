@@ -39,7 +39,7 @@ body{
 
 /* inicia la barra de navegacion */
 .navBar{
- 
+    padding-right: .5rem;
     display: flex;
     justify-content: flex-end;
     align-self:center ;  
