@@ -15,12 +15,16 @@
 
 <body>
 
+    
+
     <header class="header">
 
 
         <nav class="navBar">
             <input type="checkbox" id="btn-menu">
-            <label for="btn-menu">
+
+            <label id="butonMenu" for="btn-menu">
+            
                 <svg class='bx bx-menu bx-lg' width="45" height="45" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 12H21" stroke="#c9c2eb" stroke-width="2" stroke-linecap="round"
@@ -30,28 +34,21 @@
                     <path d="M3 18H21" stroke="#c9c2eb" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" />
                 </svg>
+       
             </label>
-            <ul class="nav-menu">
-                <a href="./index.html">
-                    <li class="nav-iten">Home</li>
-                </a>
-                <a href="#Acerca-de-mi">
-                    <li class="nav-iten">Acerca de mí</li>
-                </a>
-                <a href="#habilidades">
-                    <li class="nav-iten">Mis habilidades</li>
-                </a>
-                <a href="#mi-experiencia">
-                    <li class="nav-iten">Experiencia</li>
-                </a>
-                <a href="#mi-portafolio">
-                    <li class="nav-iten">Portafolio</li>
-                </a>
-                <a href="#contacto">
-                    <li class="nav-iten">Contacto</li>
-                </a>
+
+          
+            <ul id="menu" class="nav-menu">
+
+                <li class="nav-iten"><a class="a-menu" href="#">Home</a></li>
+                <li class="nav-iten"><a class="a-menu" href="#Acerca-de-mi">Acerca de mi</a></li>
+                <li class="nav-iten"><a class="a-menu" href="#habilidades">Mis habilidades</a></li>
+                <li class="nav-iten"><a class="a-menu"  href="#mi-experiencia">Experiencia</a></li>
+                <li class="nav-iten"><a class="a-menu" href="#mi-portafolio">Mi portafolio</a></li>
+                <li class="nav-iten"><a class="a-menu" href="#contacto">Contacto</a></li>
 
             </ul>
+
         </nav>
         <div class="header-container">
 
@@ -158,7 +155,7 @@
 
     <section class="about" id="Acerca-de-mi">
         <div class="tex-about">
-            <h4>Acerca de mi</h4>
+            <h1 class="acerca">Acerca de mi</h1>
             <p>Soy una persona amable, con capacidad para trabajar en equipo y aprender dia a dia, apasionado por la
                 tecnología, la programación, la lectura y los videojuegos. Capaz de adaptarme rápidamente a un equipo de
                 trabajo y sus necesidades, con conocimientos en HTML, CSS, JavaScript y Bases de Datos</p>
@@ -338,7 +335,7 @@
         </div>
 
     </section>
-    <h1 class="title-servicios">Servicios</h1>
+    <h1 id="mi-portafolio" class="title-servicios">Portafolio</h1>
 
     <section class="portafolio">
 
@@ -348,7 +345,7 @@
 
             </div>
 
-            <div id="mi-portafolio" class="img-portafolio">
+            <div  class="img-portafolio">
                 <img src="./assets/Imágenes/ejemplo 2.png" alt="captura portafolio">
             </div>
 
@@ -412,6 +409,8 @@
         </div>
         
     </footer>
+
+    <script src="./assets/js/main.js"></script>
 
 </body>
 

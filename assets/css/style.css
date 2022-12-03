@@ -59,15 +59,19 @@ body{
  .nav-menu{
     background-color: #9584e9;
     position: absolute;
-    width: 60%;
+    width: 100%;
+    height: 100vh;
     top: 48px;
     left: -100%;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
     align-items:center;
-    transition: left .5s cubic-bezier(0.1, -0.6, 0.2, 0);;
+    transition: left .5s;
     z-index: 1;
     border-radius: 0 0 1rem;
     
@@ -81,6 +85,15 @@ body{
  
 
  }
+
+ .a-menu{
+    text-decoration: none;
+    color: #b09eff;
+ }
+ .a-menu:hover{
+    font-weight: bolder;
+    color: white
+ }
  
  .nav-iten:hover{
     color: white;
@@ -92,7 +105,10 @@ body{
     text-decoration: none;
 
  } 
+ .menu--open{
 
+    display: none;
+}
  
 
  #btn-menu:checked ~ .nav-menu{
@@ -244,6 +260,10 @@ body{
     font-size: 16px;
     line-height: 1.5rem;
     margin: 1rem;
+}
+.acerca{
+    font-size: 34px;
+    margin-bottom: 4rem;
 }
 
 /* aqui termina la sesccion de acerca de mi */
@@ -603,6 +623,7 @@ body{
 }
 
 }
+
 /* media query para el responsive de la seccion de habilidades  */
 
 
@@ -633,6 +654,9 @@ body{
     .habiliti-p{
         font-size: 14px;
        
+    }
+    .menu--open{
+        display: flex;
     }
 
 }
