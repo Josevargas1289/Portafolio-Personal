@@ -60,33 +60,34 @@ body{
     background-color: #9584e9;
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height:  100vh;
     top: 48px;
     left: -100%;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 2rem;
-    align-items:center;
+    gap: 1rem;
     transition: left .5s;
     z-index: 1;
     border-radius: 0 0 1rem;
-    
+    overflow: hidden;    
  }
 
  .nav-iten{
+    margin: 1.5rem;
     list-style: none;
     font-size: 1.25rem;
     color: #c9c2eb;
     font-weight: bold;
+   
  
 
  }
 
  .a-menu{
+   
     text-decoration: none;
     color: #b09eff;
  }
